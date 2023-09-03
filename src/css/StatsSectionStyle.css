@@ -1,0 +1,83 @@
+.stats-section{
+    min-height: 40vh;
+}
+
+.stats-section img{
+    max-width: 100px;
+    max-height: auto;
+}
+
+.done-logo:hover{
+    animation: animated-done 1s ease infinite;
+}
+
+.ongoing-logo:hover{
+    animation: animated-ongoing 1s ease infinite;
+}
+
+.client-logo:hover{
+    animation: animated-client 1s ease infinite;
+}
+
+@keyframes animated-done {
+
+    0% {
+        transform: scale(1, 1);
+      }
+      50% {
+        transform: scale(1.2, 1.2);
+      }
+      100% {
+        transform: scale(1, 1);
+      }
+}
+
+@keyframes animated-ongoing {
+
+    0% {
+        transform: rotate(0deg);
+      }
+      10%{
+        transform: rotate(18deg);
+      }
+      20%{
+        transform: rotate(36deg);
+      }
+      30%{
+        transform: rotate(54deg);
+      }
+      40%
+      {
+        transform: rotate(72deg);
+      }
+      50%{
+        transform: rotate(90deg);
+      }
+      60%{
+        transform: rotate(108deg);
+      }
+      70%{
+        transform: rotate(126deg);
+      }
+      80%{
+        transform: rotate(144deg);
+      }
+      90%{
+        transform: rotate(162deg);
+      }
+      100% {
+        transform: rotate(180deg);
+      }
+}
+
+@keyframes animated-client {
+    0%{
+        box-shadow: none;
+    }
+    50%{
+        box-shadow: 0px 15px 10px -15px green;
+    }
+    100%{
+        box-shadow: none;
+    }
+}

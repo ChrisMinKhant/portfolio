@@ -1,0 +1,33 @@
+.nav img{
+    max-height: 70px;
+    max-width: auto;
+}
+
+.nav{
+    border-bottom:5px solid #ffc45d;
+    background-color: #fff;
+}
+
+.menu-logo{
+    max-width: 50px;
+    max-height: auto;
+}
+
+.menu-logo:hover{
+    border-bottom: 5px solid #5D98FF;
+    transition: .1s;
+}
+
+.collapse-nav-btn{
+    color: #000;
+    font-size: 90%;
+}
+
+.collapse-nav-btn:active{
+    color:#ffc45d;
+}
+
+.navbar-btn{
+    border: none;
+    background-color: #ffff;
+}

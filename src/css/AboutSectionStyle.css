@@ -1,0 +1,17 @@
+img{
+    max-width: 250px;
+    max-height: auto;
+    border: 5px solid #fff;
+}
+
+.about-section{
+    background-color: #ffc45d;
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+.quote{
+    color: #fff;
+}

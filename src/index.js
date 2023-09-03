@@ -1,19 +1,28 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "./index.css";
 import App from "./App";
-import reportWebVitals from "./reportWebVitals";
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/js/bootstrap.min.js";
+import "../src/css/Main.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
+const firebaseConfig = {
+  apiKey: "AIzaSyAi741S1Y2qZhCbkwQ2oh3WEcF5E0mGUfY",
+  authDomain: "kaungminkhantportfolio.firebaseapp.com",
+  projectId: "kaungminkhantportfolio",
+  storageBucket: "kaungminkhantportfolio.appspot.com",
+  messagingSenderId: "67220795972",
+  appId: "1:67220795972:web:10de2881037cddc9c04211",
+  measurementId: "G-ST92YKLSRG",
+};
+
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
+
 root.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

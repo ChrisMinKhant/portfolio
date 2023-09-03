@@ -1,0 +1,10 @@
+.btn-normal{
+    border: none;
+    background-color: #ffff;
+    font-size: 90%;
+}
+
+.btn-normal:hover{
+    border-bottom: 5px solid #5D98FF;
+    transition: .2s;
+}
