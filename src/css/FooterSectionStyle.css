@@ -1,0 +1,14 @@
+.footer-section img {
+    border: none;
+    width: 20px;
+    height: auto;
+}
+
+.footer-section {
+    /* background-color: #5D98FF; */
+    color: #000;
+}
+
+.copyright-section {
+    font-size: 10px;
+}

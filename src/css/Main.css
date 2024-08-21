@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Share+Tech+Mono&display=swap');
+
+* {
+    font-family: "Courier Prime", monospace;
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    display: grid;
+    grid-template-columns: auto 40% auto;
+}
+
+#root {
+    grid-column: 2/2;
+}

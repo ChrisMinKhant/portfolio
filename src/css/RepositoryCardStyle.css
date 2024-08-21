@@ -1,0 +1,47 @@
+.card {
+  border-radius: 2rem;
+  position: relative;
+}
+
+.card:hover {
+
+  border-radius: 2rem;
+  color: #fff;
+  background-color: #353535;
+  transition: 0.5s;
+
+  .gradient-shadow {
+    border-radius: 2rem;
+    z-index: -1;
+    position: absolute;
+    top: -0.5rem;
+    right: -0.5rem;
+    bottom: -0.5rem;
+    left: -0.5rem;
+    background: linear-gradient(to right, #355C7D, #6C5B7B, #C06C84);
+    border-radius: 0.5rem;
+    opacity: 1;
+    filter: blur(15px);
+    transition: 0.3s;
+  }
+
+  .card-body {
+    border-radius: 2rem;
+  }
+}
+
+.card-body {
+  border-radius: 2rem;
+  position: relative;
+  box-shadow: -4px 4px 19px -14px #000;
+}
+
+.arrow {
+  opacity: 50%;
+}
+
+.arrow:hover {
+  cursor: pointer;
+  opacity: 100%;
+  transition: 0.2s;
+}

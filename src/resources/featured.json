@@ -1,0 +1,40 @@
+{
+  "featuredProjects": [
+    {
+      "repositoryName": "BULL8",
+      "repositoryDescription": "Simple go framework copy cat the basic concept of Laravel and MVC pattern.",
+      "repositoryLink": "https://github.com/ChrisMinKhant/bull8",
+      "stack":["golang"]
+    },
+    {
+      "repositoryName": "PORTFOLIO",
+      "repositoryDescription": "This is my portfolio.",
+      "repositoryLink": "https://github.com/ChrisMinKhant/portfolio",
+      "stack":["react","firebase"]
+    },
+    {
+      "repositoryName": "YOUTSHI",
+      "repositoryDescription": "This project is for easy checking of office ferry.",
+      "repositoryLink": "https://github.com/ChrisMinKhant/youtshi",
+      "stack":["golang"]
+    },
+    {
+      "repositoryName": "YOUTSHI FRONTEND",
+      "repositoryDescription": "This is the frontend project for project 'youtshi'. In this project, I will mainly use react library.",
+      "repositoryLink": "https://github.com/ChrisMinKhant/youtshi_frontend",
+      "stack":["react"]
+    },
+    {
+      "repositoryName": "TAXI RENTAL SERVICE",
+      "repositoryDescription": "This is the repository for taxi rental service. In this service, there'll be management system for taxi cars, taxi drivers, extra car parts which is like an inventory management system and financial. This project will be developed mainly in Java ( Spring Boot ).",
+      "repositoryLink": "https://github.com/ChrisMinKhant/taxi-rental-service",
+      "stack":["java","spring boot","mongodb"]
+    },
+    {
+      "repositoryName": "FLYING PIG",
+      "repositoryDescription": "This is indie framework for testing wired logic.",
+      "repositoryLink": "https://github.com/ChrisMinKhant/flying-pig-framework",
+      "stack":["react"]
+    }
+  ]
+}

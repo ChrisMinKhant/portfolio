@@ -1,0 +1,32 @@
+img {
+    max-width: 150px;
+    max-height: auto;
+}
+
+#CONTACT img {
+    border: none;
+    width: 20px;
+    height: auto;
+}
+
+#CONTACT a {
+    opacity: 50%;
+}
+
+#CONTACT a:hover {
+    opacity: 100%;
+    transition: 0.3s;
+}
+
+.about-section {
+    border-bottom-style: solid;
+    border-bottom: 50% #000;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.quote {
+    color: #fff;
+}
